@@ -1,0 +1,107 @@
+/*------------------mainhtml--------------*/
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+.mainHeader{
+    background-color: rgb(214, 172, 121);
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 7%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.secondHeader{
+    background-color: rgb(53, 102, 69);
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 7%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.adminpages{
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 7%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.dark{
+    background-color: rgb(51, 49, 47);
+    padding-right: 100px;
+}
+.off{
+    background-color: rgb(123, 12, 12);
+}
+a{
+    text-decoration: underline;
+    color: white;
+    margin-right: 15px;
+}
+.topic{
+    font-size: 100px;
+    text-align: center;
+    color: rgb(107, 99, 91);
+    margin-bottom: 40px;
+}
+.output{
+    margin: 20px 50px;
+    width: 100%;
+}
+.output tr, .output td{
+    border: 2px solid yellow;
+    color: white;
+    border-collapse: collapse;
+}
+.output td{
+    padding: 20px 60px 20px 10px;
+    margin: 30px 0px;
+    font-size: 25px;
+}
+.gender td{
+    width: 50%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.showinputs, .showinputs label{
+    color: white;
+    display: inline;
+    margin-left: 40px;
+}
+input{
+    margin-bottom: 20px;
+    padding: 3px 0;
+    align-items: baseline;
+   
+}
+label{
+    display: flex;
+    width: 260px;
+    justify-content: space-between;
+}
+select{
+    display: flex;
+    width: 160px;
+    margin-bottom: 20px;
+}
+.small{
+    justify-content: left;
+}
+
+.space{
+    margin-left: 70px;
+}
+.remaster{
+    margin-left: 50px;
+}
+.regbutton{
+    width: 120px;
+}
